@@ -38,7 +38,7 @@ export default {
   body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
-    font-size: 150%;
+    font-size: 100%;
   }
   .btn {
     display: inline-block;
@@ -46,7 +46,7 @@ export default {
     background: #286E8F !important;
     color: #fff;
     padding: 7px 20px;
-    font-size: 150%;
+    font-size: 100%;
     cursor: pointer;
   }
   .btn:hover {
@@ -63,8 +63,9 @@ export default {
     background: #2A0E3F;
     color: #fff;
     padding: 100px;
-    font-size: 80%;
+    font-size: 100%;
     margin-top: 5%;
+    height: 200px;
     
   }
   footer a {
@@ -82,7 +83,7 @@ export default {
   #myName{
     margin-bottom: 1%;
     width: 50%;
-    font-size: 150%;
+    font-size: 100%;
     float: left;
   }
 
@@ -93,4 +94,27 @@ export default {
     width: 40%;
     float: right;
   }
+
+  /* wide phone*/
+@media screen and (max-width: 420px) and (min-width: 0px) {
+
+  footer {
+    padding: 50px;
+    margin-top: 5%;
+    height: 200px;
+    
+  }
+  
+    #myName{
+    width: 100%;
+    float: left;
+  } 
+
+  #Attribution {
+    color: #fff;
+    width: 100%;
+    float: left;
+  } 
+
+}
 </style>
